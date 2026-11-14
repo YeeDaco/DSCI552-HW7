@@ -25,4 +25,4 @@ cd notebook
 jupyter notebook Lu_Yiming_HW7.ipynb   # then Kernel -> Restart & Run All
 ```
 
-The notebook loads data with the relative path `../data/anuran_calls/`. The `RecordID` column is an identifier and is not used as a feature. A full run (10-fold CV over 35 (C, sigma) pairs for each of the three labels with raw and with standardized attributes, two 10-fold CVs of L1 SVMs, and 50 Monte-Carlo runs of k-means for k = 2, ..., 50) takes TIME_PLACEHOLDER on a multi-core machine.
+The notebook loads data with the relative path `../data/anuran_calls/`. The `RecordID` column is an identifier and is not used as a feature. A full run (10-fold CV over 35 (C, sigma) pairs for each of the three labels with raw and with standardized attributes, two 10-fold CVs of L1 SVMs, and 50 Monte-Carlo runs of k-means for k = 2, ..., 50) takes about 30 minutes on a multi-core machine.
